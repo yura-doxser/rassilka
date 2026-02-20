@@ -30,7 +30,9 @@ owner_id = "введите свой"
 database_url = os.getenv('DATABASE_URL')
 
 comments = [
-    # введите свои комментарии
+    'гад факин дэээм',
+    'потужно',
+    'ичо'
 ]
 
 client = TelegramClient(
@@ -238,3 +240,4 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
